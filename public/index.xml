@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on My New Hugo Site created by </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 21 May 2025 15:13:50 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>博客标题</title>
+      <link>http://localhost:1313/blog/second/</link>
+      <pubDate>Wed, 21 May 2025 15:13:50 +0800</pubDate>
+      
+      <guid>http://localhost:1313/blog/second/</guid>
+      <description>&lt;p&gt;这是摘要&lt;/p&gt;
+&lt;p&gt;这是内容&lt;/p&gt;
+&lt;p&gt;hello world&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

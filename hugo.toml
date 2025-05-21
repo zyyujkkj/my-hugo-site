@@ -1,0 +1,33 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'hugo-theme-ladder'
+defaultContentLanguage = "zh"
+[params]
+  brand = "主页"
+  author = "zyu"
+  authorDescription = "阅读｜思考｜产出｜进步"
+  info = "从未停止对未知的探索，尝试分享一些有趣的东西"
+  darkModeTheme = "data-dark-mode"
+  favicon = "images/baize.png"
+
+[[menu.main]]
+  name = "文章"
+  url = "/blog/"
+  weight = 1
+
+[[menu.main]]
+  name = "归档"
+  url = "/archive/"
+  weight = 2
+
+[[menu.main]]
+  name = "联系"
+  url = "/contact/"
+  weight = 3
+
+[[menu.main]]
+  name = "网站统计"
+  url = "/xx/"
+  weight = 4
+
