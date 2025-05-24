@@ -5,11 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Blogs | 我的学习记录</title>
+<title>文章列表 | Zyu的学习记录</title>
 <meta name="keywords" content="">
-<meta name="description" content="Blogs - 我的学习记录">
-<meta name="author" content="你的名字">
-<link rel="canonical" href="http://localhost:1313/blog/">
+<meta name="description" content="文章列表 - Zyu的学习记录">
+<meta name="author" content="zyu">
+<link rel="canonical" href="http://localhost:1313/posts/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.2211ca3164be7830024f6aad2b3a2e520843a64f8f048445c3401c1249aa051d.css" integrity="sha256-IhHKMWS&#43;eDACT2qtKzouUghDpk&#43;PBIRFw0AcEkmqBR0=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
@@ -18,8 +18,8 @@
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/blog/index.xml">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/blog/">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/posts/index.xml">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/">
 <noscript>
     <style>
         #theme-toggle,
@@ -74,7 +74,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="我的学习记录 (Alt + H)">我的学习记录</a>
+            <a href="http://localhost:1313/" accesskey="h" title="Zyu的学习记录 (Alt + H)">Zyu的学习记录</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -120,9 +120,25 @@
 <main class="main"> 
 <header class="page-header">
   <h1>
-    Blogs
+    文章列表
   </h1>
 </header>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Linux学习
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>要创建一篇新的博客，首先需要回到根目录：
+cd ~/my-site 然后执行：
+hugo new posts/third.md 然后便可以用vim修改：
+vim content/posts/third.md 或者用VS Code打开修改：
+code content/posts/third.md ...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-05-24 21:19:52 +0800 CST'>May 24, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;zyu</footer>
+  <a class="entry-link" aria-label="post link to Linux学习" href="http://localhost:1313/posts/third/"></a>
+</article>
 
 <article class="post-entry"> 
   <header class="entry-header">
@@ -133,13 +149,37 @@
     <p>这是摘要
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2025-05-21 15:13:50 +0800 CST'>May 21, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;你的名字</footer>
-  <a class="entry-link" aria-label="post link to 博客标题" href="http://localhost:1313/blog/second/"></a>
+  <footer class="entry-footer"><span title='2025-05-21 15:13:50 +0800 CST'>May 21, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;zyu</footer>
+  <a class="entry-link" aria-label="post link to 博客标题" href="http://localhost:1313/posts/second/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">起点：博客配置与部署
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p> 本文记录使用 Hugo &#43; PaperMod 主题搭建个人博客的完整过程与排版技巧，适合初学者快速上手。
+一. 创建新文章 要创建一篇新的博客，首先需要回到根目录：
+cd ~/my-site 然后执行：
+hugo new posts/third.md 然后便可以用vim修改：
+vim content/posts/third.md 或者用VS Code打开修改：
+code content/posts/third.md 二. 界面技巧 使用 ‘&gt;’ 给界面增加一个备注
+使用 ‘- - -’ 给标题和正文之间增加一条线，保持美观
+改变文字的各种符号：
+** 加粗内容 ** ：内容
+* 斜体内容 * ：内容
+~~ 删除线内容 ~~：内容
+三. 网页部署 我们的部署采用Github Page
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-05-21 12:15:45 +0800 CST'>May 21, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;zyu</footer>
+  <a class="entry-link" aria-label="post link to 起点：博客配置与部署" href="http://localhost:1313/posts/first/"></a>
 </article>
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/">我的学习记录</a></span> · 
+        <span>&copy; 2025 <a href="http://localhost:1313/">Zyu的学习记录</a></span> · 
 
     <span>
         Powered by

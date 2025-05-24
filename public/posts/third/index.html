@@ -5,11 +5,19 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Blogs | 我的学习记录</title>
+<title>Linux学习 | Zyu的学习记录</title>
 <meta name="keywords" content="">
-<meta name="description" content="Blogs - 我的学习记录">
-<meta name="author" content="你的名字">
-<link rel="canonical" href="http://localhost:1313/blog/">
+<meta name="description" content="要创建一篇新的博客，首先需要回到根目录：
+cd ~/my-site
+然后执行：
+hugo new posts/third.md
+然后便可以用vim修改：
+vim content/posts/third.md
+或者用VS Code打开修改：
+code content/posts/third.md
+">
+<meta name="author" content="zyu">
+<link rel="canonical" href="http://localhost:1313/posts/third/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.2211ca3164be7830024f6aad2b3a2e520843a64f8f048445c3401c1249aa051d.css" integrity="sha256-IhHKMWS&#43;eDACT2qtKzouUghDpk&#43;PBIRFw0AcEkmqBR0=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
@@ -18,8 +26,7 @@
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/blog/index.xml">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/blog/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/third/">
 <noscript>
     <style>
         #theme-toggle,
@@ -59,7 +66,7 @@
 </noscript>
 </head>
 
-<body class="list" id="top">
+<body class="" id="top">
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');
@@ -74,7 +81,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="我的学习记录 (Alt + H)">我的学习记录</a>
+            <a href="http://localhost:1313/" accesskey="h" title="Zyu的学习记录 (Alt + H)">Zyu的学习记录</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -117,29 +124,47 @@
         </ul>
     </nav>
 </header>
-<main class="main"> 
-<header class="page-header">
-  <h1>
-    Blogs
-  </h1>
-</header>
+<main class="main">
 
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">博客标题
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>这是摘要
-...</p>
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Linux学习
+    </h1>
+    <div class="post-meta"><span title='2025-05-24 21:19:52 +0800 CST'>May 24, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;zyu
+
+</div>
+  </header> 
+  <div class="post-content"><p>要创建一篇新的博客，首先需要回到根目录：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd ~/my-site
+</span></span></code></pre></div><p>然后执行：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new posts/third.md
+</span></span></code></pre></div><p>然后便可以用vim修改：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>vim content/posts/third.md
+</span></span></code></pre></div><p>或者用VS Code打开修改：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>code content/posts/third.md
+</span></span></code></pre></div>
+
   </div>
-  <footer class="entry-footer"><span title='2025-05-21 15:13:50 +0800 CST'>May 21, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;你的名字</footer>
-  <a class="entry-link" aria-label="post link to 博客标题" href="http://localhost:1313/blog/second/"></a>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+<nav class="paginav">
+  <a class="next" href="http://localhost:1313/posts/second/">
+    <span class="title">Next »</span>
+    <br>
+    <span>博客标题</span>
+  </a>
+</nav>
+
+  </footer>
 </article>
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/">我的学习记录</a></span> · 
+        <span>&copy; 2025 <a href="http://localhost:1313/">Zyu的学习记录</a></span> · 
 
     <span>
         Powered by

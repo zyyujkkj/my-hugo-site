@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Blogs on My New Hugo Site</title>
+    <title>Blogs on 我的学习记录</title>
     <link>http://localhost:1313/blog/</link>
-    <description>Recent content in Blogs on My New Hugo Site created by </description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 21 May 2025 15:13:50 +0800</lastBuildDate><atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent content in Blogs on 我的学习记录</description>
+    <generator>Hugo -- 0.147.4</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 21 May 2025 15:13:50 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>博客标题</title>
       <link>http://localhost:1313/blog/second/</link>
       <pubDate>Wed, 21 May 2025 15:13:50 +0800</pubDate>
-      
       <guid>http://localhost:1313/blog/second/</guid>
-      <description>&lt;p&gt;这是摘要&lt;/p&gt;
-&lt;p&gt;这是内容&lt;/p&gt;
-&lt;p&gt;hello world&lt;/p&gt;</description>
+      <description>&lt;p&gt;这是摘要&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
