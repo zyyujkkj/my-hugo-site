@@ -1,76 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>文章列表 on Zyu的学习记录</title>
-    <link>https://zyyujkkj.github.io/my-hugo-site/posts/</link>
-    <description>Recent content in 文章列表 on Zyu的学习记录</description>
-    <generator>Hugo -- 0.147.4</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sat, 24 May 2025 21:30:00 +0800</lastBuildDate>
-    <atom:link href="https://zyyujkkj.github.io/my-hugo-site/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Hello Hugo</title>
-      <link>https://zyyujkkj.github.io/my-hugo-site/posts/hello-hugo/</link>
-      <pubDate>Sat, 24 May 2025 21:30:00 +0800</pubDate>
-      <guid>https://zyyujkkj.github.io/my-hugo-site/posts/hello-hugo/</guid>
-      <description>&lt;p&gt;第一次使用 Hugo + PaperMod 搭建我的博客，用来记录学习内容。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Linux学习</title>
-      <link>https://zyyujkkj.github.io/my-hugo-site/posts/third/</link>
-      <pubDate>Sat, 24 May 2025 21:19:52 +0800</pubDate>
-      <guid>https://zyyujkkj.github.io/my-hugo-site/posts/third/</guid>
-      <description>&lt;p&gt;要创建一篇新的博客，首先需要回到根目录：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd ~/my-site
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;然后执行：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new posts/third.md
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;然后便可以用vim修改：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;vim content/posts/third.md
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;或者用VS Code打开修改：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;code content/posts/third.md
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-    </item>
-    <item>
-      <title>博客标题</title>
-      <link>https://zyyujkkj.github.io/my-hugo-site/posts/second/</link>
-      <pubDate>Wed, 21 May 2025 15:13:50 +0800</pubDate>
-      <guid>https://zyyujkkj.github.io/my-hugo-site/posts/second/</guid>
-      <description>&lt;p&gt;这是摘要&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>起点：博客配置与部署</title>
-      <link>https://zyyujkkj.github.io/my-hugo-site/posts/first/</link>
-      <pubDate>Wed, 21 May 2025 12:15:45 +0800</pubDate>
-      <guid>https://zyyujkkj.github.io/my-hugo-site/posts/first/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;本文记录使用 Hugo + PaperMod 主题搭建个人博客的完整过程与排版技巧，适合初学者快速上手。&lt;/p&gt;&lt;/blockquote&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;一-创建新文章&#34;&gt;一. 创建新文章&lt;/h2&gt;
-&lt;p&gt;要创建一篇新的博客，首先需要回到根目录：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd ~/my-site
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;然后执行：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new posts/third.md
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;然后便可以用vim修改：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;vim content/posts/third.md
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;或者用VS Code打开修改：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;code content/posts/third.md
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;二-界面技巧&#34;&gt;二. 界面技巧&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;使用 &amp;lsquo;&amp;gt;&amp;rsquo; 给界面增加一个备注&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;使用 &amp;lsquo;- - -&amp;rsquo; 给标题和正文之间增加一条线，保持美观&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;改变文字的各种符号：&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;** 加粗内容 ** ：&lt;strong&gt;内容&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;* 斜体内容 * ：&lt;em&gt;内容&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;~~ 删除线内容 ~~：&lt;del&gt;内容&lt;/del&gt;&lt;/p&gt;
-&lt;h2 id=&#34;三-网页部署&#34;&gt;三. 网页部署&lt;/h2&gt;
-&lt;p&gt;我们的部署采用Github Page&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>文章列表 on Zyu的学习记录</title><link>https://zyyujkkj.github.io/my-hugo-site/posts/</link><description>Recent content in 文章列表 on Zyu的学习记录</description><generator>Hugo -- 0.147.4</generator><language>zh-cn</language><lastBuildDate>Sat, 24 May 2025 21:30:00 +0800</lastBuildDate><atom:link href="https://zyyujkkj.github.io/my-hugo-site/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello Hugo</title><link>https://zyyujkkj.github.io/my-hugo-site/posts/hello-hugo/</link><pubDate>Sat, 24 May 2025 21:30:00 +0800</pubDate><guid>https://zyyujkkj.github.io/my-hugo-site/posts/hello-hugo/</guid><description>&lt;p>第一次使用 Hugo + PaperMod 搭建我的博客，用来记录学习内容。&lt;/p></description></item><item><title>Linux学习</title><link>https://zyyujkkj.github.io/my-hugo-site/posts/third/</link><pubDate>Sat, 24 May 2025 21:19:52 +0800</pubDate><guid>https://zyyujkkj.github.io/my-hugo-site/posts/third/</guid><description>&lt;p>要创建一篇新的博客，首先需要回到根目录：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>cd ~/my-site
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>然后执行：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>hugo new posts/third.md
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>然后便可以用vim修改：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>vim content/posts/third.md
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>或者用VS Code打开修改：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>code content/posts/third.md
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>博客标题</title><link>https://zyyujkkj.github.io/my-hugo-site/posts/second/</link><pubDate>Wed, 21 May 2025 15:13:50 +0800</pubDate><guid>https://zyyujkkj.github.io/my-hugo-site/posts/second/</guid><description>&lt;p>这是摘要&lt;/p></description></item><item><title>起点：博客配置与部署</title><link>https://zyyujkkj.github.io/my-hugo-site/posts/first/</link><pubDate>Wed, 21 May 2025 12:15:45 +0800</pubDate><guid>https://zyyujkkj.github.io/my-hugo-site/posts/first/</guid><description>&lt;blockquote>
+&lt;p>本文记录使用 Hugo + PaperMod 主题搭建个人博客的完整过程与排版技巧，适合初学者快速上手。&lt;/p>&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="一-创建新文章">一. 创建新文章&lt;/h2>
+&lt;p>要创建一篇新的博客，首先需要回到根目录：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>cd ~/my-site
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>然后执行：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>hugo new posts/third.md
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>然后便可以用vim修改：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>vim content/posts/third.md
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>或者用VS Code打开修改：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>code content/posts/third.md
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="二-界面技巧">二. 界面技巧&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>使用 &amp;lsquo;&amp;gt;&amp;rsquo; 给界面增加一个备注&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>使用 &amp;lsquo;- - -&amp;rsquo; 给标题和正文之间增加一条线，保持美观&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>改变文字的各种符号：&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>** 加粗内容 ** ：&lt;strong>内容&lt;/strong>&lt;/p>
+&lt;p>* 斜体内容 * ：&lt;em>内容&lt;/em>&lt;/p>
+&lt;p>~~ 删除线内容 ~~：&lt;del>内容&lt;/del>&lt;/p>
+&lt;h2 id="三-网页部署">三. 网页部署&lt;/h2>
+&lt;p>我们的部署采用Github Page&lt;/p></description></item></channel></rss>
