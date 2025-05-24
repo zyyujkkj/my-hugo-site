@@ -19,10 +19,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.147.4
+      HUGO_VERSION: 0.147.0
     steps:
       - name: 检出代码
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
       - name: 安装Hugo CLI
         run: |
@@ -37,7 +37,7 @@ jobs:
         run: hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
 
       - name: 上传构建产物
-        uses: actions/upload-pages-artifact@v2
+          uses: actions/upload-pages-artifact@v2
         with:
           path: ./public
 
