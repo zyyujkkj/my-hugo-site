@@ -2,6 +2,8 @@ baseURL = 'https://zyyujkkj.github.io/my-hugo-site/'
 languageCode = 'zh-cn'
 title = 'Zyu的学习记录'
 theme = 'PaperMod'
+relativeURLs = true
+canonifyURLs = true
 
 [params]
   author = "zyu"

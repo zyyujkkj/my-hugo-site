@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>学习笔记 on Zyu的学习记录</title>
+    <link>https://zyyujkkj.github.io/my-hugo-site/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
+    <description>Recent content in 学习笔记 on Zyu的学习记录</description>
+    <generator>Hugo -- 0.147.4</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 24 May 2025 21:30:00 +0800</lastBuildDate>
+    <atom:link href="https://zyyujkkj.github.io/my-hugo-site/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello Hugo</title>
+      <link>https://zyyujkkj.github.io/my-hugo-site/posts/hello-hugo/</link>
+      <pubDate>Sat, 24 May 2025 21:30:00 +0800</pubDate>
+      <guid>https://zyyujkkj.github.io/my-hugo-site/posts/hello-hugo/</guid>
+      <description>&lt;p&gt;第一次使用 Hugo + PaperMod 搭建我的博客，用来记录学习内容。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -2,17 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Zyu的学习记录</title>
-    <link>http://localhost:1313/</link>
+    <link>https://zyyujkkj.github.io/my-hugo-site/</link>
     <description>Recent content on Zyu的学习记录</description>
     <generator>Hugo -- 0.147.4</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 24 May 2025 21:19:52 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 May 2025 21:30:00 +0800</lastBuildDate>
+    <atom:link href="https://zyyujkkj.github.io/my-hugo-site/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello Hugo</title>
+      <link>https://zyyujkkj.github.io/my-hugo-site/posts/hello-hugo/</link>
+      <pubDate>Sat, 24 May 2025 21:30:00 +0800</pubDate>
+      <guid>https://zyyujkkj.github.io/my-hugo-site/posts/hello-hugo/</guid>
+      <description>&lt;p&gt;第一次使用 Hugo + PaperMod 搭建我的博客，用来记录学习内容。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Linux学习</title>
-      <link>http://localhost:1313/posts/third/</link>
+      <link>https://zyyujkkj.github.io/my-hugo-site/posts/third/</link>
       <pubDate>Sat, 24 May 2025 21:19:52 +0800</pubDate>
-      <guid>http://localhost:1313/posts/third/</guid>
+      <guid>https://zyyujkkj.github.io/my-hugo-site/posts/third/</guid>
       <description>&lt;p&gt;要创建一篇新的博客，首先需要回到根目录：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd ~/my-site
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;然后执行：&lt;/p&gt;
@@ -25,16 +32,16 @@
     </item>
     <item>
       <title>博客标题</title>
-      <link>http://localhost:1313/posts/second/</link>
+      <link>https://zyyujkkj.github.io/my-hugo-site/posts/second/</link>
       <pubDate>Wed, 21 May 2025 15:13:50 +0800</pubDate>
-      <guid>http://localhost:1313/posts/second/</guid>
+      <guid>https://zyyujkkj.github.io/my-hugo-site/posts/second/</guid>
       <description>&lt;p&gt;这是摘要&lt;/p&gt;</description>
     </item>
     <item>
       <title>起点：博客配置与部署</title>
-      <link>http://localhost:1313/posts/first/</link>
+      <link>https://zyyujkkj.github.io/my-hugo-site/posts/first/</link>
       <pubDate>Wed, 21 May 2025 12:15:45 +0800</pubDate>
-      <guid>http://localhost:1313/posts/first/</guid>
+      <guid>https://zyyujkkj.github.io/my-hugo-site/posts/first/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;本文记录使用 Hugo + PaperMod 主题搭建个人博客的完整过程与排版技巧，适合初学者快速上手。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;hr&gt;
